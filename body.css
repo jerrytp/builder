@@ -1,0 +1,256 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#img-slider {
+  height: 500px;
+  width: 950px;
+}
+.covid {
+  display: flex;
+  height: 450px;
+  width: 950px;
+}
+.ready {
+  display: flex;
+  background-color: rgb(18, 223, 172);
+  width: 50%;
+  flex-direction: column;
+}
+.covidready {
+  font-size: 50px;
+  color: white;
+  margin-left: 60px;
+  letter-spacing: 5px;
+  margin-top: 30px;
+}
+.black {
+  color: black;
+}
+.mask {
+  width: 50%;
+}
+.imagemask {
+  width: 100%;
+  height: 100%;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.4em;
+  font-family: "Roboto", sans-serif;
+}
+.button {
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 175px;
+}
+.four {
+  height: 500px;
+  width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#_3bLYT svg {
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+}
+.enterpners {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: aliceblue;
+  width: 25%;
+  text-align: center;
+}
+.creators {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: aliceblue;
+  background-color: gray;
+  width: 25%;
+  text-align: center;
+}
+.lerners {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: black;
+  width: 25%;
+  background-color: rgb(185, 180, 180);
+  text-align: center;
+}
+.networks {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgba(189, 218, 25, 0.678);
+  width: 25%;
+  text-align: center;
+}
+
+.icon1 {
+  width: 80px;
+}
+.icon2 {
+  width: 80px;
+}
+.icon3 {
+  width: 80px;
+}
+.icon4 {
+  width: 80px;
+}
+.text {
+  min-height: 100px;
+}
+.main1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  border: solid;
+  border-color: orangered;
+  color: orangered;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 30px;
+}
+.hello {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 35px;
+  text-decoration: underline;
+}
+.bang {
+  display: flex;
+  margin-left: 200px;
+}
+.privacy {
+  display: flex;
+  margin-left: 40px;
+  text-decoration: underline;
+}
+.kate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+}
+.main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph2 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 15px;
+  margin-right: 20px;
+}
+.titleimage {
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+@media (max-width: 1150px) {
+  .enterpners {
+    flex: 50%;
+  }
+  .creators {
+    flex: 50%;
+  }
+  .networks {
+    flex: 50%;
+  }
+  .lerners {
+    flex: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .enterpners {
+    flex: 100%;
+  }
+  .creators {
+    flex: 100%;
+  }
+  .networks {
+    flex: 100%;
+  }
+  .lerners {
+    flex: 100%;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 500px) {
+  .covid {
+    flex-direction: column;
+    width: 100%;
+  }
+  .mask {
+    width: 100%;
+  }
+  .ready {
+    width: 100%;
+  }
+  .four {
+    margin-top: 375px;
+  }
+  .main1 {
+    margin-top: 1000px;
+  }
+  .head {
+    align-items: center;
+  }
+}
